@@ -94,7 +94,7 @@ Hasło: root123
 
 Po zalogowaniu możliwe jest zarządzanie bazą danych MySQL.
 
-![phpMyAdmin](screenshots/phpmyadmin1.png)
+![phpMyAdmin](screenshots/phpmyadmin-1.png)
 
 ---
 
