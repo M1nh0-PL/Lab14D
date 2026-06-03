@@ -39,17 +39,16 @@ Budowa i uruchomienie wszystkich usług:
 docker compose up -d --build
 ```
 
+![docker compose up](screenshots/compose-up.png)
+
+
 Sprawdzenie stanu kontenerów:
 
 ```bash
 docker compose ps
 ```
 
-Wszystkie kontenery uzyskały status:
-
-```text
-Up
-```
+![docker compose ps](screenshots/compose-ps.png)
 
 ---
 
