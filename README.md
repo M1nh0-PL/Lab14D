@@ -73,8 +73,6 @@ Potwierdza to poprawne działanie:
 - PHP-FPM,
 - komunikacji pomiędzy kontenerami.
 
-Screenshot:
-
 ![LEMP](screenshots/phpinfo.png)
 ---
 
@@ -96,15 +94,13 @@ Hasło: root123
 
 Po zalogowaniu możliwe jest zarządzanie bazą danych MySQL.
 
+![phpMyAdmin](screenshots/phpmyadmin1.png)
+
 ---
 
 ## Inicjalizacja testowej bazy danych
 
-Po zalogowaniu do phpMyAdmin utworzono bazę danych:
-
-```text
-lab14_test
-```
+Po zalogowaniu do phpMyAdmin utworzono bazę danych: `lab14D_test`
 
 Operacja zakończyła się powodzeniem, co potwierdza poprawną współpracę:
 
@@ -112,30 +108,11 @@ Operacja zakończyła się powodzeniem, co potwierdza poprawną współpracę:
 - MySQL,
 - sieci backend.
 
----
-
-## Dowody działania
-
-Do repozytorium dołączono zrzuty ekranu przedstawiające:
-
-- uruchomienie środowiska (`docker compose up -d --build`),
-- działające kontenery (`docker compose ps`),
-- stronę dostępną pod adresem `http://localhost:4001`,
-- logowanie do phpMyAdmin,
-- utworzenie bazy danych `lab14_test`,
-- działanie Docker Secrets.
+![Test database](screenshots/phpmyadmin-2.png)
 
 ---
 
 ## Wnioski
 
 Przygotowany stos LEMP działa poprawnie.
-
-Zostały uruchomione wszystkie wymagane mikroserwisy:
-
-- Nginx,
-- PHP-FPM,
-- MySQL,
-- phpMyAdmin.
-
 Zapewniono komunikację pomiędzy usługami za pomocą sieci Docker oraz wykorzystano mechanizm Docker Secrets do bezpiecznego przechowywania hasła administratora bazy danych. Możliwe jest wyświetlenie aplikacji PHP, logowanie do phpMyAdmin oraz tworzenie nowych baz danych.
