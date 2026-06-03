@@ -54,6 +54,7 @@ docker compose ps
 
 ## Działanie stosu LEMP
 
+
 Strona została udostępniona przez serwer Nginx na porcie:
 
 ```text
@@ -72,6 +73,9 @@ Potwierdza to poprawne działanie:
 - PHP-FPM,
 - komunikacji pomiędzy kontenerami.
 
+Screenshot:
+
+![LEMP](screenshots/phpinfo.png)
 ---
 
 ## Dostęp do phpMyAdmin
